@@ -12,11 +12,16 @@ If you find any bugs or problems, feel free to contact me on Twitter or discord!
 
 
 Disclaimer:
+
 Sakurazaka46 Unofficial Database, mainly used for recommendation/data searching. 
+
 Prediction on future formation and comments on members/songs/albums/goods are not included.
 
+
 All data used are from the internet. The content and data in this fan-made database are intended for informational and entertainment purposes only.
+
 They do not represent official statements, endorsements, or affiliations with Sakurazaka46.
+
 
 All trademarks and copyrighted materials belong to their respective owners.
 
