@@ -10,7 +10,7 @@ df2 = mmb_info_df
 
 st.title("Sakurazaka46 Unofficial Database")
 
-show_mmbinfo = st.checkbox("Member's information")
+show_mmbinfo = (st.checkbox("Member's information"))
 if show_mmbinfo:
     st.write("Member's info, with her center song and SNS.")
     search_name = st.text_input("Enter member's name to search: ")
@@ -51,8 +51,6 @@ if show_mmbinfo:
         st.write("She is in the unit performing")
         st.write(matched_rows[columns_to_show])
 
-st.write(" ")
-
 show_songinfo = st.checkbox("Song's information")
 if show_songinfo:
     st.write("Song information")
@@ -67,15 +65,23 @@ if show_songinfo:
     else:
         st.write("This is not a Sakurazaka46 song.")
 
+show_useful_link = st.checkbox("Useful links")
+if show_useful_link:
+    st.markdown("[Sakurazaka46 Official Website](https://sakurazaka46.com/s/s46/?ima=0000)")
+    st.write("^ The offical website.")
+    st.markdown("[Sakurazaka101](https://sakurazaka101.com/)")
+    st.write("^ The fan-made information website, with detailed introduction on members and grads.")
+    st.markdown("[Sakurazaka Daily Schedule](https://twitter.com/pinkyellow46)")
+    st.write("^ A fan account for Sakurazaka46 daily schedule.")
 
 st.write(" ")
-show_content = st.checkbox("Disclaimer")
 
-
-if show_content:
+show_disclaimer = st.checkbox("Disclaimer")
+if show_disclaimer:
     st.write("Sakurazaka46 Unofficial Database, mainly used for recommendation/data searching. Prediction on future formation and comments on members/songs/albums/goods are not included. ")
     st.write("All data used are from the internet. The content and data in this fan-made database are intended for informational and entertainment purposes only. ")
     st.write("They do not represent official statements, endorsements, or affiliations with Sakurazaka46. ")
     st.write("All trademarks and copyrighted materials belong to their respective owners. ")
+
 
 
