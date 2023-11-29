@@ -6,9 +6,11 @@ The 'Sakurazaka46 Database' is just a little fandom project set up by me, a newb
 
 I'm now a cute university student drowning with assignments and labs, so I may not have much time for development or maintainence or so on.
 
-If you find any bugs or problems, feel free to contact me on Twitter or discord!(If you can find me on the sakucen server)
+If you find any bugs or problems, feel free to contact me on Twitter or discord!(If you can find me on the sakusen server)
 
 
+so here's the link:
+https://saku46db.streamlit.app/
 
 
 Disclaimer:
